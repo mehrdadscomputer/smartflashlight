@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dark" >
+
+    <TextView
+        android:id="@+id/tv_strobe_on"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:keepScreenOn="true"
+        android:text="تنظیم روشنایی"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/tv_strobe_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/tv_strobe_on"
+        android:layout_below="@+id/sb_strobe_on"
+        android:layout_marginTop="29dp"
+        android:text="تنظیم خاموشی"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/iv_strobe_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb_strobe_off"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp" />
+
+    <SeekBar
+        android:id="@+id/sb_strobe_on"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_strobe_on"
+        android:layout_centerHorizontal="true"
+        android:max="100"
+        android:progress="10"
+        android:progressDrawable="@drawable/styled_progress"
+        android:thumb="@drawable/thumbler_small" />
+
+    <SeekBar
+        android:id="@+id/sb_strobe_off"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sb_strobe_on"
+        android:layout_below="@+id/tv_strobe_off"
+        android:max="100"
+        android:progress="20"
+        android:progressDrawable="@drawable/styled_progress"
+        android:thumb="@drawable/thumbler_small" />
+
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">چراغ قوه باهوش</string>
+    <string name="strobe">چشمک زن دستی</string>
+    <string name="music">چشمک زن صوتی</string>
+    <string name="flashlight">چراغ</string>
+    <string name="movement">چشمک زن حرکتی</string>
+    <string name="action_settings">Settings</string>
+    <string name="actionbar_overflow">منو</string>
+    <string name="actionbar_screen">Screen</string>
+    <string name="actionbar_flashlight">Flashlight</string>
+
+</resources>

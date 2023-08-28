@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_flashlight"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dark" >
+
+    <ImageView
+        android:id="@+id/imgv_flashlight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="Turn On and Off"
+        android:onClick="FlashlightOnClick" />
+
+    <ImageButton
+        android:id="@+id/ib_battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/ic_action_battery_0"
+        android:onClick="showBatteryPercent"
+        android:keepScreenOn="true" />
+
+</RelativeLayout>

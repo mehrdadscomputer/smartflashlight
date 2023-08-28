@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_dark" >
+
+    <ImageView
+        android:id="@+id/iv_sound_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/tv_soundlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pb_sound_level"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="فرکانس صدا"
+        android:textColor="@color/white"
+        android:keepScreenOn="true" />
+
+    <ProgressBar
+        android:id="@+id/pb_sound_level"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        android:max="32"
+        android:progress="1"
+        android:progressDrawable="@drawable/animation_soundlevel" />
+
+</RelativeLayout>

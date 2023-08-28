@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <!-- Screen, should appear as action button -->
+    <item
+        android:id="@+id/actionbar_screen"
+        android:icon="@drawable/ic_action_screen_off"
+        android:title="@string/actionbar_screen"
+        yourapp:showAsAction="ifRoom"/>
+
+    <!-- Flashlight, should appear as action button -->
+    <item
+        android:id="@+id/actionbar_flashlight"
+        android:icon="@drawable/ic_action_cameraflash_on"
+        android:title="@string/actionbar_flashlight"
+        yourapp:showAsAction="ifRoom"/>
+
+</menu>

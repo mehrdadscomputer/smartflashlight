@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto" >
+
+    <!-- Overflow, should appear as action button -->
+    <item
+        android:id="@+id/actionbar_overflow"
+        android:icon="@drawable/ic_action_overflow"
+        android:title="@string/actionbar_overflow"
+        yourapp:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/actionbar_overflow_help"
+                android:icon="@drawable/ic_action_help"
+                android:title="راهنما"/>
+            <item
+                android:id="@+id/actionbar_overflow_about"
+                android:icon="@drawable/ic_action_about"
+                android:title="درباره سازنده"/>
+        </menu>
+    </item>
+
+</menu>

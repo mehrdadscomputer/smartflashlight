@@ -1,0 +1,5 @@
+# cache for current jar dependency. DO NOT EDIT.
+# format is <lastModified> <length> <SHA-1> <path>
+# Encoding is UTF-8
+1397724634000 627582 db0f122c99ef9f90dbab3fada6d191f2880cbb8e /home/mehrdad/Developer/adt-bundle-linux-x86_64-20130522/workspace/SmartLight/libs/android-support-v4.jar
+1392950313000 627582 db0f122c99ef9f90dbab3fada6d191f2880cbb8e /home/mehrdad/Developer/adt-bundle-linux-x86_64-20130522/sdk/extras/android/support/v7/appcompat/libs/android-support-v4.jar
